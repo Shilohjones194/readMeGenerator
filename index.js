@@ -24,7 +24,7 @@ const promptUser = () => {
         },
         {
             type: 'input',
-            message: 'How did you install your project?',
+            message: 'What are the steps required to install your project?',
             name: 'installation',
         },
         {
