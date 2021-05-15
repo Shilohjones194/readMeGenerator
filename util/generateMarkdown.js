@@ -21,6 +21,9 @@ const generateMarkdown = data => {
 ## Description
 ${data.description}
 
+## Developer-Profile:
+* GitHub: [${data.github}](https://github.com/${data.github})
+
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -28,7 +31,6 @@ ${data.description}
 * [Contributors](#contributors)
 * [Tests](#tests)
 * [Questions](#questions)
-* [Developer Profile](#developer profile)
 ## Installation
 ${data.installation}
 
@@ -46,9 +48,6 @@ ${data.tests}
 
 ## Questions
 * Email: Please contact me at [${data.email}](mailto:${data.email}) if you have any questions.
-
-## Developer Profile:
-* GitHub: [${data.github}](https://github.com/${data.github})
 
 
 `;
