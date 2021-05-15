@@ -12,7 +12,8 @@
 
 // TODO: Create a function to generate markdown for README
 // basic READ.me temple below. ( still unsure how to do the licensing badge thing...)
-const generateMarkdown = data => {}
+
+const generateMarkdown = data => {
   return `
 
 # ${data.title}
@@ -27,7 +28,7 @@ ${data.description}
 * [Contributors](#contributors)
 * [Tests](#tests)
 * [Questions](#questions)
-
+* [Developer Profile](#developer profile)
 ## Installation
 ${data.installation}
 
@@ -44,11 +45,14 @@ ${data.contributors}
 ${data.tests}
 
 ## Questions
-${data.questions}
-* GitHub: [${data.github}](https://github.com/${data.github})
 * Email: Please contact me at [${data.email}](mailto:${data.email}) if you have any questions.
 
+## Developer Profile:
+* GitHub: [${data.github}](https://github.com/${data.github})
+
+
 `;
+}
 
 module.exports = generateMarkdown;
 //Title of ReadMe
@@ -67,4 +71,3 @@ module.exports = generateMarkdown;
 // *questions
 // -What is your github username? (link should be added)
 // -What is your email address? (instructions should be added, stating this is how you reach out to me for additional questions)
--

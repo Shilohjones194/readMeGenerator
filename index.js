@@ -1,13 +1,9 @@
-
 // call it with "node index.js"
-// TODO: Include packages needed for this application
 const fs =require('fs');
 const inquirer = require('inquirer');
-const { title } = require('process');
 const util = require('util');
-
-const generatePage = () => 'Github: Name, Github: Project';
-console.log(generatePage());
+const generateMarkdown = require('./util/generateMarkdown');
+const writeFileAsync = util.promisify(fs.writeFile);
 
 // TODO: Create an array of questions for user input //
 const promptUser = () => {
@@ -37,7 +33,7 @@ const promptUser = () => {
             name: 'license',
             type: 'list',
             message: 'Choose your license:',
-            choices: ['', '', ''],
+            choices: ['MIT', 'ISC', 'Apache 2.0',"None"],
         },
         {
             type: 'input',
@@ -59,40 +55,21 @@ const promptUser = () => {
             message: 'What is your email?',
             name: 'email'
         },
-    ]);
+    ]).then(function(response){
+        // console.log(response)
+       var readMeData =  generateMarkdown(response)
+        // .then(function(readMeData) {
+            console.log(readMeData);
+        // })
+    })
 };
-//Title of ReadMe
-// -description ofReadme
-// *Title of table of contents consist of the following *
-// *Installation title
-// --description
-// *Usage
-// --descrption
-// * liscense
-// -add a badge for liscense, along with copywrite 
-// * Contributing
-// -would you like to add users?
-// *Tests
-// -
-// *questions
-// -What is your github username? (link should be added)
-// -What is your email address? (instructions should be added, stating this is how you reach out to me for additional questions)
--
 
 
-
-
-
-// const questions = [];
-// message: 'Please give a good description of it:',
-// message: 'Now t'
-// message:
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    promptUser();
+}
 
 // Function call to initialize app
 init();
-module.exports =
