@@ -33,7 +33,7 @@ const promptUser = () => {
             name: 'license',
             type: 'list',
             message: 'Choose your license:',
-            choices: ['MIT', 'ISC', 'APACHE 2.0',"None"],
+            choices: ['MIT', 'ISC', 'APACHE%202.0',"None"],
         },
         {
             type: 'input',
