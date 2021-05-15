@@ -36,7 +36,7 @@ ${data.installation}
 ${data.usage}
 
 ## License
-${data.license}
+![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
 ## Contributors
 ${data.contributors}

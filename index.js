@@ -58,6 +58,9 @@ const promptUser = () => {
     ]).then(function(response){
         // console.log(response)
        var readMeData =  generateMarkdown(response)
+       fs.writeFileSync('README.md', readMeData, function(err,message){
+           if (err) throw err;
+       })
         // .then(function(readMeData) {
             console.log(readMeData);
         // })
