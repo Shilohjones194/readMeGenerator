@@ -3,7 +3,7 @@
 # ReadMeGenerator
 
 ## Description
-Through the commandline I can create a quick and easy way to get a ReadMe for a REPO.
+Through the command line, you can create a README page quickly and easy.
 
 ## Developer-Profile:
 * GitHub: [Shilohjones194](https://github.com/Shilohjones194)
@@ -16,19 +16,19 @@ Through the commandline I can create a quick and easy way to get a ReadMe for a 
 * [Tests](#tests)
 * [Questions](#questions)
 ## Installation
-NPM i
+NPM install
 
 ## Usage
-I use it through the terminal.
+through the command line.
 
 ## License
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Contributors
-Xandromus provided the starter code and guide lines
+Xandromous provided the start code.
 
 ## Tests
-I ran alot of tests, you can see them in the previous Git commits on my Github account
+All my tests have been ran through and committed on to my GIthub.
 
 ## Questions
 * Email: Please contact me at [Shilohjonezz@gmail.com](mailto:Shilohjonezz@gmail.com) if you have any questions.
