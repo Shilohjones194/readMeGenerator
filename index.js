@@ -3,9 +3,7 @@ const fs =require('fs');
 const inquirer = require('inquirer');
 const util = require('util');
 const generateMarkdown = require('./util/generateMarkdown');
-const writeFileAsync = util.promisify(fs.writeFile);
 
-// TODO: Create an array of questions for user input //
 const promptUser = () => {
     return inquirer.prompt([
         {
@@ -28,7 +26,6 @@ const promptUser = () => {
             message: 'How do you use your project?',
             name: 'usage',
         },
-///STill not 100% on how to do the license/badge part//
         {
             name: 'license',
             type: 'list',
@@ -61,12 +58,9 @@ const promptUser = () => {
        fs.writeFileSync('README.md', readMeData, function(err,message){
            if (err) throw err;
        })
-        // .then(function(readMeData) {
-            console.log(readMeData);
-        // })
+       console.log('readMeFileGenerator')
     })
 };
-
 
 
 // TODO: Create a function to initialize app

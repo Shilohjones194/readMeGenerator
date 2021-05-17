@@ -1,12 +1,12 @@
 
 
-# adfg
+# Read Me Generator
 
 ## Description
-adfg
+While using the terminal code, you will be prompt on a series of questions, that will print out the typical ReadME. page for you github Repo.
 
 ## Developer-Profile:
-* GitHub: [adfg](https://github.com/adfg)
+* GitHub: [Shilohjones194](https://github.com/Shilohjones194)
 
 ## Table of Contents
 * [Installation](#installation)
@@ -16,21 +16,21 @@ adfg
 * [Tests](#tests)
 * [Questions](#questions)
 ## Installation
-adfg
+NPM I
 
 ## Usage
-adfg
+You use it with your terminal line in gitbash.
 
 ## License
-![GitHub license](https://img.shields.io/badge/license-APACHE%202.0-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Contributors
-adfg
+Xandromus for providing the starter code.
 
 ## Tests
-adfg
+Alot of them, please look in the previous commitments.
 
 ## Questions
-* Email: Please contact me at [adfg](mailto:adfg) if you have any questions.
+* Email: Please contact me at [Shilohjonezz@gmail.com](mailto:Shilohjonezz@gmail.com) if you have any questions.
 
 
