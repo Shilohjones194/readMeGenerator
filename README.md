@@ -1,9 +1,9 @@
 
 
-# Read Me Generator
+# ReadMeGenerator
 
 ## Description
-While using the terminal code, you will be prompt on a series of questions, that will print out the typical ReadME. page for you github Repo.
+Through the commandline I can create a quick and easy way to get a ReadMe for a REPO.
 
 ## Developer-Profile:
 * GitHub: [Shilohjones194](https://github.com/Shilohjones194)
@@ -16,19 +16,19 @@ While using the terminal code, you will be prompt on a series of questions, that
 * [Tests](#tests)
 * [Questions](#questions)
 ## Installation
-NPM I
+NPM i
 
 ## Usage
-You use it with your terminal line in gitbash.
+I use it through the terminal.
 
 ## License
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Contributors
-Xandromus for providing the starter code.
+Xandromus provided the starter code and guide lines
 
 ## Tests
-Alot of them, please look in the previous commitments.
+I ran alot of tests, you can see them in the previous Git commits on my Github account
 
 ## Questions
 * Email: Please contact me at [Shilohjonezz@gmail.com](mailto:Shilohjonezz@gmail.com) if you have any questions.
